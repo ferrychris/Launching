@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launching Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class=" mt-[50px] text-center">
+        <div>
+             <img src="/images/logo.svg" class="ml-[45%]">
+        </div>
+        <div>
+            <p class="text-5xl mt-7">We are Launching Soon</p>
+            <p class="text-2xl mt-5">Subscibe and get notified</p>
+        </div>
+        <div class="mt-8 space-x-3">
+            <form>
+                <input type="email" class="pr-4 py-3 border rounded sm" placeholder="Input Email Address">
+                <button class="bg-blue-500 px-10 py-3 text-white font-bold rounded-lg">Notify Me</button>
+            </form>
+          
+        </div>
+        <div class="item-center mt-5">
+            <img src="./images/illustration-dashboard.png " class="sm:ml-[600px] md:ml-[480px] w-[400px] ">
+            
+        </div>
+       
+    </div>
+    
+</body>
+</html>
